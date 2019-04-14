@@ -1,0 +1,299 @@
+
+@media(max-width:400px){ 
+    
+    /*=================================
+    Start Team 
+    =================================*/
+    
+    .team .personal .info-personal .social a i {
+        width: 37px;
+        height: 37px;
+        line-height: 37px;
+        font-size: 16px;
+    }
+    
+    /*=================================
+    End Team 
+    =================================*/
+    
+}
+
+@media(max-width:767px){
+
+
+    /*=================================
+    Start Parallax 
+    =================================*/
+    
+    .parallax:before {
+        border-left: 400px solid #fff;
+        border-top: 120px solid transparent;
+    }
+    
+    .parallax:after {
+        border-right: 400px solid #fff;
+        border-top: 120px solid transparent;
+    }
+    
+    .parallax .slider {
+        top: 10%;
+    }
+    
+    .parallax .slider h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    
+    .parallax .slider h3 {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    
+    .parallax .buttons-intro {
+        top: 55%;
+    }
+    
+    .parallax .buttons-intro a {
+        padding: 10px 15px;
+        font-size: 16px;
+        display: block;
+        width: 200px;
+        margin: 0px auto 20px;
+    }
+    
+    .parallax .buttons-intro a:nth-child(2) {
+        left: 0;
+    }
+
+
+    .header-scroll .navbar-toggle {
+        margin: 12px 15px;
+        border-radius: 0;
+        border-color: #EE3A55;
+    }
+
+    .header-scroll .navbar-default .navbar-toggle:focus,
+    .header-scroll .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+
+    .header-scroll .navbar-default .navbar-toggle .icon-bar {
+        background-color: #EE3A55;
+    }
+
+    .header-scroll .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        margin-top: 15px;
+        height: 400px;
+    }
+
+    .header-scroll .navbar-brand {
+        padding: 8px 0 0 10px;
+    }
+
+    .header-scroll .navbar-brand img {
+        width: 140px;
+    }
+
+    .header-scroll .navbar-default .navbar-nav {
+        float: none;
+        width: 100%;
+        margin: 7px 0;
+    }
+
+    .header-scroll .navbar-default .navbar-nav>li>a {
+        padding: 15px 13px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .header-scroll .navbar-default .navbar-nav>li:last-child a {
+        border-bottom: 0;
+    }
+    
+    /*=================================
+    End Parallax 
+    =================================*/
+    
+    
+    
+    /*=================================
+    Start Portfolio 
+    =================================*/
+    .tabs-works{
+        display: none;
+    }
+    
+    .dropdown-filters {
+        display: block;
+    }
+    
+    .portfolio .works .col-md-3 {
+        width: 100%;
+    }
+    /*=================================
+    End Portfolio 
+    =================================*/
+    
+    
+    
+    /*=================================
+    Start Team 
+    =================================*/
+    .team .personal .image-personal {
+        float: none;
+        width: 100%;
+    }
+    
+    .team .personal .info-personal {
+        float: none;
+        width: 100%;
+    }
+    
+    /*=================================
+    End Team 
+    =================================*/
+    
+    
+    /*=================================
+    Start Footer 
+    =================================*/
+    .contact .footer p {
+        float: none;
+    }
+    
+    .contact .footer .social-media {
+        float: none;
+    }
+    
+    /*=================================
+    End Footer 
+    =================================*/
+    
+    
+    /*=================================
+    Start Loading 
+    =================================*/
+    
+    .sk-folding-cube {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: -50px;
+    }
+    
+    /*=================================
+    End Loading 
+    =================================*/
+    
+    
+}
+
+
+/* small screen */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+    
+    /*=================================
+    Start Parallax 
+    =================================*/
+    
+    .parallax .slider h1 {
+        font-size: 45px;
+    }
+
+    .header-scroll .navbar-brand {
+        padding: 13px 0 0 0;
+    }
+
+    .header-scroll .navbar-brand img {
+        width: 120px;
+    }
+
+    .header-scroll .navbar-default .navbar-nav>li>a {
+        padding: 20px 7px;
+        font-size: 13px;
+    }
+    
+    /*=================================
+    End Parallax 
+    =================================*/
+    
+    
+    
+    /*=================================
+    Start Team 
+    =================================*/
+    
+    .team .personal .info-personal {
+        padding: 32px 20px;
+    }
+    
+    .team .personal .info-personal h3 {
+        font-size: 28px;
+        padding-top: 25px;
+    }
+    
+    .team .personal .info-personal h4 {
+        font-size: 19px;
+        padding-top: 25px;
+    }
+    
+    .team .personal .info-personal .social {
+        margin-top: 46px;
+    }
+    
+    .team .personal .info-personal .social a i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 27px;
+    }
+    
+    /*=================================
+    End Team 
+    =================================*/
+    
+    
+    
+
+}
+
+/* medium screen */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    
+    
+    /*=================================
+    Start Team 
+    =================================*/
+    
+    .team .personal .info-personal h3 {
+        padding-top: 0;
+    }
+    
+    .team .personal .info-personal .social {
+        margin-top: 18px;
+    }
+
+    .team .personal .info-personal .social a i {
+        width: 37px;
+        height: 37px;
+        line-height: 37px;
+        font-size: 16px;
+    }
+    
+    /*=================================
+    End Team 
+    =================================*/
+    
+}
+
+/* large screen */
+
+@media(min-width:1200px)
+{
+
+}
