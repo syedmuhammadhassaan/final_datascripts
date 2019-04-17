@@ -5,40 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+    
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
 
-    <!-- Include Bootstrap And Font Awesome -->
-		<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-		<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
-		
-		<!-- Include Magnific popup -->
-		<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
-		
-		<!-- Include OWL Slider -->
-		<link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}">
-		<link rel="stylesheet" href="{% static 'css/owl.theme.css' %}">
-		
-		<!-- Include Style And Responsive -->
-		<link rel="stylesheet" href="{% static 'css/style.css' %}">
-		<link rel="stylesheet" href="{% static 'css/responsive.css' %}">
-		
-		<!-- Include Favicon -->
-		<link rel="shortcut icon" href="{% static 'img/favicon.png' %}">
-		
-		<!-- Include Google Font -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Montserrat">
-        
-    <title>DataScripts</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="{% static 'lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{% static 'lib/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/animate/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/ionicons/css/ionicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/lightbox/css/lightbox.min.css' %}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+
+  <title>DataScripts</title>
+
+
 </head>
 <body>
-    {% block content %} {% endblock %}
 
-    <script src="{%static 'js/jquery-3.1.1.min.js' %}"></script><!-- Include Jquery -->
-    <script src="{%static 'js/bootstrap.min.js' %}"></script><!-- Include Bootstrap.js -->
-    <script src="{%static 'js/plugins.js' %}"></script><!-- Include Plugin Slider Texts Parallax -->
-    <script src="{%static 'js/jquery.mixitup.min.js' %}"></script><!-- Include Mixitup -->
-    <script src="{%static 'js/jquery.magnific-popup.min.js' %}"></script><!-- Include Magnific Popup -->
-    <script src="{%static 'js/owl.carousel.min.js' %}"></script><!-- Include OWL Slider -->
-    <script src="{%static 'js/smooth-scroll.min.js' %}"></script><!-- Include OWL Slider -->
-    <script src="{%static 'js/work.js' %}"></script><!-- Include Custom File -->
+  {% include 'partials/_header.html' %}
+
+  {% block content %} {% endblock %}
+
+  {% include 'partials/_footer.html' %}
+
+
+  <!-- JavaScript Libraries -->
+  <script src="{% static 'lib/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'lib/jquery/jquery-migrate.min.js' %}"></script>
+  <script src="{% static 'lib/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'lib/easing/easing.min.js' %}"></script>
+  <script src="{% static 'lib/mobile-nav/mobile-nav.js' %}"></script>
+  <script src="{% static 'lib/wow/wow.min.js' %}"></script>
+  <script src="{% static 'lib/waypoints/waypoints.min.js' %}"></script>
+  <script src="{% static 'lib/counterup/counterup.min.js' %}"></script>
+  <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'lib/isotope/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'lib/lightbox/js/lightbox.min.js' %}"></script>
+  <!-- Contact Form JavaScript File -->
+  <!-- <script src="contactform/contactform.js"></script> -->
+
+  <!-- Template Main Javascript File -->
+  <script src="{% static 'js/main.js' %}"></script>
+  
 </body>
-</html>
+</html> 
